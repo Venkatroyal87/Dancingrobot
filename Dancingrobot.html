@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font-style: oblique;">ROBOT</title>
+    <div class="a">
+        <Style>
+            .A1
+            {
+            text-align:center;  
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(9, 255, 0);
+            border: 6px dashed black;
+            background:linear-gradient(rgb(107, 16, 16),rgb(11, 11, 87),black);
+            border-color: chocolate;
+            
+            width: 200px;
+            margin:30px;
+            margin-left: 140px;
+            margin-right: 140px;
+            background-clip: content-box;
+           
+            background:linear-gradient(rgb(rgb(255, 0, 0) 255),rgb(60, 0, 255));
+            }
+            .A2
+            {
+             margin: 100px;
+             height: 600px;
+             background-clip: content-box;
+             width: 500px;
+            background-color: rgb(142, 132, 152);
+             border: 5px solid black;
+                border-style: dashed;
+                border-radius: ;
+             
+             border-style:dashed;
+            }
+            .head
+            {
+              
+              margin-top: 100px;
+              margin-left: 200px;
+              height: 100px;
+              width: 100px;
+              border: 10px solid black;
+              border-style:outset;
+              border-bottom-left-radius: 50px;
+              border-bottom-right-radius: 50px;
+              border-top-left-radius: 45px;
+              border-top-right-radius: 45px;
+              animation-name: circle;
+             
+            animation-duration: 1s;
+            animation-fill-mode: backwards;
+            animation-iteration-count: infinite;
+              background: radial-gradient(rgb(0, 113, 128),rgb(255, 0, 51));
+            }
+            @keyframes circle
+            {
+                0%{
+                    border-radius: 100%;
+                    scale: 1.2;
+                    
+                }
+                25%
+                {
+                    border-radius: 100%;
+                    /* scale: 1.5; */
+                    transform: rotate(0deg);
+                }
+                50%
+                {
+                    border-radius: 100%;
+                    /* scale: 1.5; */
+                    transform: rotate(0deg);
+                }
+                75%
+                {
+                    border-radius: 100%;
+                    /* scale: 1.5; */
+                    transform: rotate(0dg);
+                }
+                100%
+                {
+
+                }
+            }
+            .body
+            {
+                height: 200px;
+                width: 150px;
+                border: 8px solid black;
+                border-style:ridge;
+                margin-left: 178px;
+                animation-name: circles;
+                animation-fill-mode: backwards;
+                animation-iteration-count: infinite;
+                animation-duration: 1s;
+                border-top-left-radius: 40px;
+                border-top-right-radius: 40px;
+                border-bottom-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+                background: linear-gradient(rgb(255, 0, 0),rgb(0, 255, 170),rgb(255, 153, 0));
+            }
+            @keyframes circles
+            {
+                0%{
+                    /* border-radius: 25%;
+                    scale: 1.2; */
+                    transform: rotatex(10deg);
+                    
+                }
+                25%
+                {
+                    /* border-radius: 0%;
+                    scale: 1.5; */
+                    transform: rotatey(10deg);
+                }
+                50%
+                {
+                    /* border-radius: 0%;
+                    scale: 1.5; */
+                    transform: rotatex(15deg);
+                }
+                75%
+                {
+                    /* border-radius: 0%;
+                    scale: 1.5; */
+                    transform: rotatey(15dg);
+                }
+                100%
+                {
+
+                }
+            }
+            .eyel
+            {
+                height: 10px;
+                width: 10px;
+                border: 5px solid black;
+                border-style: dashed;
+                position: relative;
+                border-radius: 20px;
+                animation-name: circ;
+                animation-fill-mode: backwards;
+                animation-iteration-count: infinite;
+                animation-duration: 1s;
+                left: 220px;
+                bottom: 290px;
+                animation-name: cir;
+                animation-fill-mode: backwards;
+                animation-iteration-count: infinite;
+                animation-duration: 1s;
+                background: whitesmoke;
+
+            }
+            @keyframes cir
+            {
+                0%{
+                    /* border-radius: 25%;
+                    scale: 1.2; */
+                    transform: rotatex(180deg);
+                    
+                }
+                25%
+                {
+                    /* border-radius: 0%;
+                    scale: 1.5; */
+                    transform: rotatey(180deg);
+                }
+                50%
+                {
+                    /* border-radius: 0%;
+                    scale: 1.5; */
+                    transform: rotatex(360deg);
+                }
+                75%
+                {
+                    /* border-radius: 0%;
+                    scale: 1.5; */
+                    transform: rotatey(360dg);
+                }
+                100%
+                {
+
+                }
+            }
+            .eye2
+            {
+                height: 10px;
+                width: 10px;
+                border: 5px solid black;
+                border-style: dashed;
+                position: relative;
+                border-radius: 20px;
+                animation-name: circ;
+                animation-fill-mode: backwards;
+                animation-iteration-count: infinite;
+                animation-duration: 1s;
+                left: 275px;
+                bottom: 308px;
+                background: whitesmoke;
+
+            }
+            @keyframes circ
+            {
+                0%{
+                    /* border-radius: 25%;
+                    scale: 1.2; */
+                    transform: rotatex(180deg);
+                    
+                }
+                25%
+                {
+                    /* border-radius: 0%;
+                    scale: 1.5; */
+                    transform: rotatey(180deg);
+                }
+                50%
+                {
+                    /* border-radius: 0%;
+                    scale: 1.5; */
+                    transform: rotatex(360deg);
+                }
+                75%
+                {
+                    /* border-radius: 0%;
+                    scale: 1.5; */
+                    transform: rotatey(360dg);
+                }
+                100%
+                {
+
+                }
+            }
+            .hand1
+            {
+                height: 120px;
+                width: 20px;
+                border: 2px solid black;
+                background: linear-gradient(rgb(187, 127, 127),rgb(112, 107, 107),rgb(80, 43, 43));
+                border-radius: 30%;
+                border-style:double;
+                position: relative;
+                left: 295px;
+                bottom:80px;
+                background: rgb(85, 77, 52);
+                animation-name: handfdss;
+                animation-duration:1s ;
+                animation-iteration-count: infinite;
+               
+                
+
+            }@keyframes handfdss
+            {
+                0%{
+                    transform: rotate(90deg);
+                    transform-origin: top center;
+                }
+                25%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                }
+                50%{
+                    transform: rotate(90deg);
+                    transform-origin: top center;
+                }
+                75%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                }
+                100%{
+                    transform: rotate(90deg);
+                    transform-origin: top center;
+                }
+            }
+
+            .hand2
+            {
+                height: 120px;
+                width: 20px;
+                border: 2px solid black;
+                background: linear-gradient(rgb(187, 127, 127),rgb(112, 107, 107),rgb(80, 43, 43));
+                border-radius: 30%;
+                position: relative;
+                left: 205px;
+                bottom:200px;
+                animation-name: handfds;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                background: rgb(85, 77, 52);
+
+            } @keyframes handfds
+            {
+                0%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                    border-left-style: ;
+                }
+                25%{
+                    transform: rotate(90deg);
+                    transform-origin: top center;
+                }
+                50%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                }
+                75%{
+                    transform: rotate(90deg);
+                    transform-origin: top center;
+                }
+                100%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                }
+            }
+            .hand3
+            {
+                height: 120px;
+                width: 20px;
+                border: 2px solid black;
+                background: linear-gradient(rgb(187, 127, 127),rgb(112, 107, 107),rgb(80, 43, 43));
+                border-radius: 30%;
+                position: relative;
+                left: 330px;
+                bottom:490px;
+            transition-property: unset;
+                animation-name: handfd;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                background: rgb(85, 77, 52);
+
+            }
+            @keyframes handfd
+            {
+                0%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                }
+                25%{
+                    transform: rotate(90deg);
+                    transform-origin: top center;
+                }
+                50%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                }
+                75%{
+                    transform: rotate(90deg);
+                    transform-origin: top center;
+                }
+                100%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                }
+            }
+            .hand4
+            {
+                height: 120px;
+                width: 20px;
+                border: 2px solid black;
+                border-style:double;
+                background: linear-gradient(rgb(187, 127, 127),rgb(112, 107, 107),rgb(80, 43, 43));                border-radius: 30%;
+                position: relative;
+                left: 170px;
+                bottom:615px;
+            transition-property: unset;
+                animation-name: handfds;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                background: rgb(85, 77, 52);
+                
+
+            } @keyframes handfds
+            {
+                0%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                }
+                25%{
+                    transform: rotate(90deg);
+                    transform-origin: top center;
+                }
+                50%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                }
+                75%{
+                    transform: rotate(90deg);
+                    transform-origin: top center;
+                }
+                100%{
+                    transform: rotate(0deg);
+                    transform-origin: top center;
+                }
+            }
+           
+               
+        </Style>
+    </div>
+</head>
+<body>
+    <h1 class="A1">Dancing Robot</h1>
+    <div class="A2">
+            <div class="head"> </div>
+            <div class="body"> </div>
+            <div class="eyel"> </div>
+            <div class="eye2"> </div>
+            <div class="hand1"> </div>
+            <div class="hand2"> </div>
+            <div class="hand3"> </div>
+            <div class="hand4"> </div>
+
+    </div>
+    
+</body>
+</html>
